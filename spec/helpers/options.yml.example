@@ -18,5 +18,5 @@ http:
   timeout: 60
 
 log:
-  logger:
+  logger: JSON_LOGGER
   level: 0

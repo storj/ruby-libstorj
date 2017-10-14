@@ -6,6 +6,7 @@ source 'https://rubygems.org' do
 
   group :test do
     gem 'rspec'
+    gem 'rspec-wait'
     gem 'simplecov'
     gem 'launchy'
   end

@@ -33,7 +33,7 @@ module LibStorj
         #(see https://github.com/ruby/rake/blob/68ef9140c11d083d8bb7ee5da5b0543e3a7df73d/lib/rake/dsl_definition.rb#L28)
         @target_task = task(target_name, args_deps_hash, &block_wrapper)
       else
-        if block
+        if block_given?
           block_wrapper = Proc.new do |task, args|
             deps = args_deps_hash.values.flatten
             yield task, args, deps

@@ -29,7 +29,7 @@ module LibStorj
           end
         end
 
-        def self.ruby_handle(&block)
+        def self.ruby_handle
           FFI::Function.new :void, %i[string pointer int] do
           |error, buckets_pointer, bucket_count|
             buckets = ::LibStorj::Ext::Storj::Bucket

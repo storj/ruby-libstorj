@@ -1,3 +1,4 @@
+require 'rspec/wait'
 require 'simplecov'
 SimpleCov.start do
   add_filter %r{spec/.+}

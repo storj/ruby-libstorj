@@ -42,7 +42,7 @@ module LibStorj
               error = response_error.nil? ? nil : response_error
             end
 
-            yield error, response if block
+            yield error, response if block_given?
           end
         end
       end

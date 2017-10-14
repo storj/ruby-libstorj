@@ -44,7 +44,7 @@ module LibStorj
                        ::LibStorj::Ext::Storj::Bucket.new(bucket_pointer)
                      end
 
-            yield error, bucket if block
+            yield error, bucket if block_given?
           end
         end
       end

@@ -74,6 +74,8 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.6.0)
     rspec-support (3.6.0)
+    rspec-wait (0.0.9)
+      rspec (>= 3, < 4)
     ruby-tls (2.3.0)
       concurrent-ruby (~> 1.0)
       ffi-compiler (>= 1.0, < 2.0)
@@ -101,6 +103,7 @@ DEPENDENCIES
   rake!
   rake-compiler!
   rspec!
+  rspec-wait!
   ruby-libstorj!
   simplecov!
 
