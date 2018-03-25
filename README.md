@@ -2,7 +2,7 @@ ruby-libstorj
 ===
 [![Storj.io](https://storj.io/img/storj-badge.svg)](https://storj.io)
 [![Gem Version](https://badge.fury.io/rb/ruby-libstorj.svg)](https://badge.fury.io/rb/ruby-libstorj)
-[![Chat on rocket.chat](https://img.shields.io/badge/chat-rocket.chat-red.svg)](https://community.storj.io)
+[![Chat on rocket.chat](https://img.shields.io/badge/chat-rocket.chat-red.svg)](https://community.storj.io/channel/dev)
 
 Ruby library for encrypted file transfer on the Storj network via bindings to [libstorj](https://github.com/Storj/libstorj/channel/dev).
 
